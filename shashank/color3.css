@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to right, #00bcd4, #50628d, #2ecc71);
+    
+ }
+ 
+ h1{
+    color: rgb(20, 16, 16);
+    background: linear-gradient(to right, #00bcd4, #50628d, #2ecc71);
+ }
+ 
+ h2{
+     color: rgb(38, 116, 38);
+ }
+ 
+ .welcome{
+     color:rgb(55, 110, 29);
+ } 
+ 
+  a:hover, a:active{
+     color: rgb(240, 31, 31);
+ }
+
+ @keyframes move {
+    0% {
+        transform: translateX(-75%);
+        background-color:  #2ecc71;
+    }
+    40% {
+        background-color: #4bce82;
+    }
+    70% {
+        background-color: #36afbe;
+    }    
+    100% {
+        transform: translateX(1900%);
+        background-color:  #00bcd4;
+    }
+  }
+ 
+ @media (max-width: 767px) {
+ 
+ ul{
+    background: linear-gradient(to right, #00bcd4, #50628d, #2ecc71);
+     }
+ }
