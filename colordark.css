@@ -1,6 +1,10 @@
 body{
     background-color: black;
-    color: rgb(132, 137, 146);
+    color: #848992;
+    }
+
+    .body{
+        background-color: transparent;
     }
     
     h1{
@@ -10,6 +14,7 @@ body{
     
     h2{
     color: rgb(0, 174, 180);
+    border-bottom:  #848992 thin solid;
     }
     
     a{
@@ -20,6 +25,16 @@ body{
     color: red;
     }
 
+    .current{
+        color: red;
+        transition: all 0.5s;
+      }
+    
+      .change:hover ~ .current{
+        text-decoration: none;
+        color:  rgb(60, 141, 168);
+      }
+
     #sign{
         color:rgb(0, 174, 180);
     }
@@ -29,6 +44,9 @@ body{
     }
 
     .menu{
+        color:white;
+    }
+    .back{
         color:white;
     }
 
