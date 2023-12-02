@@ -1,4 +1,4 @@
-/* styles for index */
+ /* styles for index */
 
 
 
@@ -146,14 +146,6 @@ h2{
   z-index: -1;
   height: 100vh;
   object-fit: cover;
-}
-
-.mobforeground{
-  display:none;
-}
-
-.mobbackground{
-  display:none;
 }
 
 img.bub{
@@ -419,13 +411,13 @@ img.logo{
     } 
 
     h2{
-      width: 90%;
+      width: 95%;
+      font-size: 25px;
     }
 
     .welcome{
       width: fit-content;
       max-width: 400px;
-      z-index: -2;
       font-size: 20px;
     }
 
@@ -450,33 +442,9 @@ img.logo{
        transition: 0.7s ease-in-out;
     }
 
-    .body{
-      perspective: 5px;
-    }
-
     .background{
-      display: none;
+      transform: translateZ(0px) scale(1);
     }    
-
-    .mobforeground{
-      display: block;
-      transform: translateZ(-5px) scale(1.5);
-      width: 100%;
-      position: absolute;
-      z-index: -1;
-      height: 100vh;
-      object-fit: contain;
-    }
-
-    .mobbackground{
-      display: block;
-      transform: translatez(-5px) scale(2);
-      width:100%;
-      position:absolute;
-      height:84vh;
-      z-index: -2;
-      object-fit:cover;
-    }
 
    .empty{
     height: 5%;
@@ -650,3 +618,5 @@ img.logo{
   }
 
   }
+  
+ 
