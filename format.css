@@ -437,7 +437,7 @@ img.logo{
       position: absolute;
       position: fixed;
        width: 50%;
-       background-color: rgba(150, 144, 144, 0.288);
+       background-color: rgba(150, 144, 130, 0.4);
        height: 100%;
        margin-top: 38px;
        line-height: 2em;
@@ -448,6 +448,7 @@ img.logo{
 
     .background{
       transform: translateZ(0px) scale(1);
+      height: 85vh;
     }    
 
    .empty{
