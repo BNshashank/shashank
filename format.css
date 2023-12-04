@@ -421,6 +421,10 @@ img.logo{
       font-size: 20px;
     }
 
+     .image{
+      height:85vh;
+     }
+   
     img.b1, img.b2{
       height:5%;
     }
